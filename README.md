@@ -11,6 +11,7 @@ This repository will try to improve the original [project](https://github.com/pe
 ## JS Libraries
 
 - [ ] Probably not bad idea to use [howler.js](https://github.com/goldfire/howler.js)
+- [ ] Another good idea is to use db [pouchdb](https://pouchdb.com)
 
 ## Tasks list
 
