@@ -8,6 +8,10 @@ This repository will try to improve the original [project](https://github.com/pe
 
 ![Sounding Poetry of Perception](spp.png)
 
+## JS Libraries
+
+- [ ] Probably not bad idea to use [howler.js](https://github.com/goldfire/howler.js)
+
 ## Tasks list
 
 - [ ] Initial index.html 
