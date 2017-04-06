@@ -1,0 +1,48 @@
+{
+  "name": "spp",
+  "version": "1.0.0",
+  "description": "In Sounding Poetry, textual descriptions become a score for sound compositions, where different words correspond to field recordings and sounds. The created soundscape is composed by one’s interpretation of his/her own visual experience into words.",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "node bin/move-assets.js",
+    "build": "npm run build:js && npm run build:sass",
+    "build:js": "browserify src/js/index.js -o dist/js/app.js --debug",
+    "build:sass": "node-sass --source-map dist/css/style.css.map --include-path=$(node bin/sass-paths.js) src/sass/style.sass dist/css/style.css",
+    "watch": "npm run watch:js & npm run watch:sass & npm run livereload",
+    "watch:js": "watchify -p browserify-hmr src/js/index.js -o dist/js/app.js --debug",
+    "watch:sass": "npm run build:sass -- --watch src/sass/**/*",
+    "livereload": "livereload dist/**/*.css -d",
+    "start": "npm run build && serve --path dist & npm run watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borisov-r/spp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/borisov-r/spp/issues"
+  },
+  "homepage": "https://github.com/borisov-r/spp#readme",
+  "dependencies": {
+    "bourbon": "^4.2.7",
+    "bourbon-neat": "^1.8.0",
+    "font-awesome": "^4.7.0",
+    "iblokz-data": "^1.0.2",
+    "iblokz-snabbdom-helpers": "^1.0.0",
+    "rx": "^4.1.0",
+    "snabbdom": "^0.5.4",
+    "superagent": "^3.3.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "browserify-hmr": "^0.3.5",
+    "eslint": "^3.12.2",
+    "eslint-config-google": "^0.6.0",
+    "fs-extra": "^1.0.0",
+    "livereload": "^0.6.0",
+    "node-sass": "^4.1.1",
+    "node-serve": "0.0.3",
+    "watchify": "^3.8.0"
+  }
+}
