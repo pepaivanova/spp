@@ -4,6 +4,8 @@ const {obj} = require('iblokz-data');
 
 // initial
 const initial = {
+	finishedLoading: false,
+	playing: false,
 	poem: ''
 };
 
