@@ -49,7 +49,7 @@ let buffers = {};
 // load samples
 $.fromArray(sampleFiles)
 	.flatMap(s =>
-		file.load(`/assets/samples/${s}`, 'arrayBuffer')
+		file.load(`assets/samples/${s}`, 'arrayBuffer')
 			.flatMap(b => $.fromCallback(audio.context.decodeAudioData, audio.context)(b))
 			.map(b => obj.keyValue(s.replace('.ogg', ''), b))
 	)
