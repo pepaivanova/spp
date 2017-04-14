@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/borisov-r/spp.git"
   },
-  "author": "Pepa Ivanova, Radoslav Borisov, Alex Milanov",
+  "author": "Pepa Ivanova, Alex Milanov, Radoslav Borisov",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/borisov-r/spp/issues"

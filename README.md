@@ -14,6 +14,20 @@ This repository will try to improve the original [project](https://github.com/pe
 - [ ] Probably not bad idea to use [howler.js](https://github.com/goldfire/howler.js)
 - [ ] Another good idea is to use db [pouchdb](https://pouchdb.com)
 
+## Install and run locally
+
+To install set following commands in terminal
+
+> [~]$ sh
+
+> [~]$ npm install
+
+To run spp locally
+
+> [~]$ sh
+
+> [~]$ npm start 
+
 ## Tasks list
 
 - [ ] Initial index.html 
@@ -37,5 +51,5 @@ This repository will try to improve the original [project](https://github.com/pe
 ## Authors
 
 * Pepa Ivanova
-* Radoslav Borisov
 * Alex Milanov
+* Radoslav Borisov
