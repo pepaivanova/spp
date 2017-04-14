@@ -16,7 +16,7 @@ This repository will try to improve the original [project](https://github.com/pe
 
 ## Install and run locally
 
-To install set following commands in terminal
+To install type following commands in terminal
 ```
 $ sh
 $ npm install
