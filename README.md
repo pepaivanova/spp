@@ -30,6 +30,7 @@ $ npm start
 
 ## Tasks list
 
+- [ ] ! The app should be able to run on Raspberry Pi and 32 GB SD card
 - [ ] Initial index.html 
 - [ ] Load web audio 
 - [ ] Configure mixing options of the sounds - tune some graphical interface  
