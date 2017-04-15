@@ -60,19 +60,19 @@ $.fromArray(sampleFiles)
 		actions.toggle('finishedLoading');
 	});
 
-const vca = audio.vca({gain: 0.5});
+const vca = audio.vca({gain: 0.1});
 audio.connect(vca, audio.context.destination);
 
 // play
 state$.distinctUntilChanged(state => state.playing).filter(state => state.finishedLoading && state.playing)
 	.subscribe(() => {
 		Object.keys(buffers).map(k => buffers[k])
-			.forEach(buffer => {
+			.forEach((buffer, i) => {
 				let bufferSource = audio.context.createBufferSource();
 				bufferSource.buffer = buffer;
-				bufferSource.loop = true;
+				bufferSource.loop = false;
 				bufferSource.connect(vca.node);
-				bufferSource.start();
+				bufferSource.start(audio.context.currentTime + i * 10, 2, 14);
 			});
 	});
 
