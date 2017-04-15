@@ -10,9 +10,15 @@ This repository will try to improve the original [project](https://github.com/pe
 
 ## JS Libraries
 
-- [ ] Best if we use [Bootstrap](http://getbootstrap.com) and this [template](http://getbootstrap.com/examples/cover/)
-- [ ] Probably not bad idea to use [howler.js](https://github.com/goldfire/howler.js)
+- [x] ES2015 [ECMA Script 2015](https://babeljs.io/learn-es2015)
+- [x] [ReactiveX](http://reactivex.io) 
+- [x] [UI Boilerplate](https://github.com/iblokz/ui-boilerplate)
 - [ ] Another good idea is to use db [pouchdb](https://pouchdb.com)
+
+## Books
+
+- [ ] [You don't know JS](https://github.com/getify/You-Dont-Know-JS)
+- [ ] [Reactive Programming with RxJS: Untangle Your Asynchronous JavaScript Code](https://www.amazon.co.uk/Reactive-Programming-RxJS-Asynchronous-JavaScript/dp/1680501291)
 
 ## Install and run locally
 
