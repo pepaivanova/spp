@@ -30,6 +30,7 @@
     "font-awesome": "^4.7.0",
     "iblokz-data": "^1.0.2",
     "iblokz-snabbdom-helpers": "^1.0.0",
+    "pouchdb": "^6.1.2",
     "rx": "^4.1.0",
     "snabbdom": "^0.5.4",
     "superagent": "^3.3.1"
