@@ -11,9 +11,9 @@ This repository will try to improve the original [project](https://github.com/pe
 ## JS Libraries
 
 - [x] ES2015 [ECMA Script 2015](https://babeljs.io/learn-es2015)
-- [x] [ReactiveX](http://reactivex.io) 
+- [x] [ReactiveX](http://reactivex.io)
 - [x] [UI Boilerplate](https://github.com/iblokz/ui-boilerplate)
-- [ ] Another good idea is to use db [pouchdb](https://pouchdb.com)
+- [x] [pouchdb](https://pouchdb.com)
 
 ## Books
 
@@ -29,20 +29,20 @@ npm install
 
 To run spp locally
 ```sh
-npm start 
+npm start
 ```
 
 ## Tasks list
 
 - [ ] ! The app should be able to run on Raspberry Pi and 32 GB SD card
-- [ ] Initial index.html 
-- [ ] Load web audio 
+- [ ] Initial index.html
+- [ ] Load web audio
 - [ ] Configure mixing options of the sounds - tune some graphical interface  
 - [ ] Get input text from the user
 - [ ] Search engine for freesounds.org or couchdb database
 - [ ] Load sound files to the local computer
 - [ ] Mix sounds corresponding to the entered text with background music
-- [ ] Play final sounds 
+- [ ] Play final sounds
 - [ ] Print a label with the entered text
 
 ## Optional features
