@@ -2346,11 +2346,13 @@ body {
     color: white; }
 
 h1 {
+  margin: 20px 0px;
   width: 100%;
   text-align: center;
   font-weight: normal;
   font-family: "Ruthie";
-  font-size: 3em; }
+  font-size: 3.4em;
+  text-shadow: 0px 0px 5px #333; }
 
 #ui {
   position: absolute;
@@ -2365,12 +2367,12 @@ h1 {
     margin: 0px auto;
     display: block;
     font-family: "Ruthie";
-    background: rgba(127, 127, 127, 0.1);
+    background: none;
     border: 0px;
     outline: none;
-    box-shadow: 0px 0px 1px #aaa;
-    font-size: 2em;
-    color: white; }
+    font-size: 2.4em;
+    color: white;
+    text-shadow: 0px 0px 5px #333; }
   #ui .controls {
     position: absolute;
     right: 20px;
