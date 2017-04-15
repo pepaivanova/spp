@@ -17,15 +17,13 @@ This repository will try to improve the original [project](https://github.com/pe
 ## Install and run locally
 
 To install type following commands in terminal
-```
-$ sh
-$ npm install
+```sh
+npm install
 ```
 
 To run spp locally
-```
-$ sh
-$ npm start 
+```sh
+npm start 
 ```
 
 ## Tasks list
