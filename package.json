@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/borisov-r/spp.git"
+    "url": "git+https://github.com/pepaivanova/spp.git"
   },
   "author": "Pepa Ivanova, Alex Milanov, Radoslav Borisov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/borisov-r/spp/issues"
+    "url": "https://github.com/pepaivanova/spp/issues"
   },
-  "homepage": "https://github.com/borisov-r/spp#readme",
+  "homepage": "https://github.com/pepaivanova/spp#readme",
   "dependencies": {
     "bourbon": "^4.2.7",
     "bourbon-neat": "^1.8.0",
