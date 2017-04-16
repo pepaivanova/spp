@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 @import url(//fonts.googleapis.com/css?family=Ruthie);
+@import url(//fonts.googleapis.com/css?family=Marck+Script);
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -2350,7 +2351,7 @@ h1 {
   width: 100%;
   text-align: center;
   font-weight: normal;
-  font-family: "Ruthie";
+  font-family: "Marck Script";
   font-size: 3.4em;
   text-shadow: 0px 0px 5px #333; }
 
@@ -2366,7 +2367,7 @@ h1 {
     height: 400px;
     margin: 0px auto;
     display: block;
-    font-family: "Ruthie";
+    font-family: "Marck Script";
     background: none;
     border: 0px;
     outline: none;
