@@ -60,7 +60,7 @@ $.fromArray(sampleFiles)
 		actions.toggle('finishedLoading');
 	});
 
-const vca = audio.vca({gain: 0.1});
+const vca = audio.vca({gain: 0.5});
 audio.connect(vca, audio.context.destination);
 
 // play
