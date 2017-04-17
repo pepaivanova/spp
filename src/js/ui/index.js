@@ -14,7 +14,7 @@ module.exports = ({state, actions}) => section('#ui', [
 				on: {
 					click: ev => actions.toggle('playing')
 				}
-			}, state.playing ? 'Stop' : 'Play')
+			}, state.playing ? 'Stop' : 'Compose')
 		])
 	])
 ]);
