@@ -12,6 +12,7 @@ const {obj, arr} = require('iblokz-data');
 const app = require('./util/app');
 const file = require('./util/file');
 const audio = require('./util/audio');
+const caret = require('./util/caret');
 let actions = app.adapt(require('./actions'));
 let ui = require('./ui');
 let actions$;
