@@ -30,7 +30,7 @@ const get = el => {
 	const row = rows.indexOf(parentRow);
 	const col = colRange.toString().length;
 	return {
-		row,
+		row: (row === -1) ? 0 : row,
 		col,
 		length: range.toString().length
 	};
@@ -38,6 +38,7 @@ const get = el => {
 
 const	set = (el, pos) => {
 	const parentRow = find('p, li, div', el)[pos.row];
+	console.log(parentRow);
 	if (parentRow) {
 		const rp = getRangePoint(parentRow, pos.col);
 		const ep = pos.length === 0 ? rp : getRangePoint(parentRow, pos.col + pos.length);
@@ -51,6 +52,6 @@ const	set = (el, pos) => {
 };
 
 module.exports = {
-  get,
-  set
-}
+	get,
+	set
+};
